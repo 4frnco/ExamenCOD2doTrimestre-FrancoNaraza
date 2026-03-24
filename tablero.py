@@ -1,6 +1,5 @@
-
 from casilla import Casilla
-from nave import Nave
+from nave import Nave # Importa Casilla y Nave
 
 class Tablero:
     def __init__(self, tamanho=10):
@@ -8,6 +7,7 @@ class Tablero:
         self.TOCADO = 1
         self.HUNDIDO = 2
 
+        # Creación de las distintas naves
         por1 = Nave("Manuel", "portaaviones", 5)
         fra1 = Nave("Damián", "fragata", 3)
         fra2 = Nave("Elena", "fragata", 3)
