@@ -17,7 +17,6 @@ class Tablero:
         sub3 = Nave("U-505", "submarino", 1)
         sub4 = Nave("U-534", "submarino", 1)
 
-        # Matriz 10x10 tal como la definiste
         self.casillero = [
             [Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua')],
             [Casilla(por1), Casilla(por1), Casilla(por1), Casilla(por1), Casilla(por1), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua'), Casilla('agua')],
